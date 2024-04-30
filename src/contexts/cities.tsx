@@ -1,4 +1,4 @@
-import { FC, ReactNode, createContext, useContext, useEffect, useReducer, useState } from "react";
+import { FC, ReactNode, createContext, useContext, useEffect, useReducer } from "react";
 import { cityData } from "../schemas";
 import { city } from "../schemas";
 

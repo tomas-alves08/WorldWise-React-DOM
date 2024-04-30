@@ -3,7 +3,7 @@ import styles from "./Button.module.css"
 
 interface ButtonProps{
     children:ReactNode,
-    onClick: (event: React.MouseEvent<HTMLButtonElement>) => void,
+    onClick: (event: React.MouseEvent<HTMLAnchorElement>) => void,
     style:string
 }
 

@@ -4,7 +4,6 @@ import Spinner from "./Spinner";
 import CityItem from "./CityItem";
 import Message from "./Message";
 import { useCities } from "../contexts/cities";
-import ButtonBack from "./ButtonBack";
 
 const CityList:FC = () =>{
     const {cities, isLoading} = useCities()

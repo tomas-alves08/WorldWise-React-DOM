@@ -14,7 +14,7 @@ const City:FC = () =>{
   // const city = cities !== null ? cities.find(city=>city.id == id) : null
   useEffect(()=>{
     getCity(id)
-  },[id])
+  },[id, getCity])
 
 
   //  useEffect(()=>{
